@@ -18,7 +18,7 @@ class AdvCalc  /*  extends  calc */{
 
 public class Final_Method {
     public static void main(String[] args) {
-        AdvCalc obj = new AdvCalc();
-        obj.show();
+        // AdvCalc obj = new AdvCalc();
+        // obj.show();
     }
 }

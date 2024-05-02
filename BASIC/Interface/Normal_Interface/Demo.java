@@ -1,4 +1,4 @@
-package BASIC.Interface;
+package BASIC.Interface.Normal_Interface;
 
 interface A {
     // variable are by default final and static
