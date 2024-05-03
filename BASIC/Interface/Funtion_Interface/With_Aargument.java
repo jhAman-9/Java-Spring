@@ -20,7 +20,7 @@ public class With_Aargument {
         // System.out.println(res);
 
 
-        // With Lambda Function
+        // With Lambda exppression
         A obj1 = (a, b) -> a + b;
         System.out.println(obj1.add(10, 20));
     }

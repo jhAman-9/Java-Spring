@@ -28,6 +28,22 @@
             System.out.println("Something Went Wrong" + e);
         }
 
+# Finally
+- if a try block donnot have catch block then it give error then their finally block used to handle error.
+
+- The Finally Block will must excuate if it is exception or not..
+
+- Basically Final Block is used to closing The Resource.
+Examlpe -> br.close();
+
+        # it is excuate whether it is exception or not
+
+        finally {
+            System.out.println("The Finally Block");
+            br.close();
+        }
+
+
 
 # Throw
 - Throw keyword is used tp throw the exception and catch block catch it..
@@ -36,8 +52,11 @@
 
 
 # Throws
+- Throws Keyword is used to throws Exception which is gone a handle by someone other
 
-
+        public void show() throws ClassNotFoundException {
+            Class.forName("Calc");
+        }
 
 
 # Heararky

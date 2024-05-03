@@ -26,6 +26,10 @@ public class Exceptions {
         catch (Exception e) {
             System.out.println("Something Went Wrong" + e);
         }
+        // it is excuate whether it is exception or not
+        finally {
+            System.out.println("The Finally Block");
+        }
 
         System.out.println(j);
         System.out.println("hello");
