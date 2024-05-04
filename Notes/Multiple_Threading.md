@@ -25,7 +25,7 @@
         1)New  -- start() --> 
         2)Runnable -- run() --> 
         3)Running -- wait()/sleep() --> 
-        4)Waiting OR -- stop() --> 
+        4)Waiting --> Runnable  OR -- stop() --> 
         5)Dead 
 - New
 - Runnable
